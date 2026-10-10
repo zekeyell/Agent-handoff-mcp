@@ -1,0 +1,22 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "mcp-token",
+      "description": "MCP_AUTH_TOKEN from your .env",
+      "password": true
+    }
+  ],
+  "servers": {
+    "sprint-dev": {
+      "type": "http",
+      "url": "https://neatness-daredevil-ion.ngrok-free.dev/mcp/dev",
+      "headers": { "Authorization": "Bearer ${input:mcp-token}" }
+    },
+    "sprint-qa": {
+      "type": "http",
+      "url": "https://neatness-daredevil-ion.ngrok-free.dev/mcp/qa",
+      "headers": { "Authorization": "Bearer ${input:mcp-token}" }
+    }
+  }
+}
