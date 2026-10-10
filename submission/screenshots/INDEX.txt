@@ -1,0 +1,19 @@
+Screenshot index (Midterms Pt 1 evidence)
+
+01 npm test: 21 of 21 pass (sandbox + auth + roles + logging)            -> criteria C, E
+02 Local request without token -> 401 Unauthorized                       -> criterion E
+03 Agent calls read_file("../package.json") -> SANDBOX VIOLATION         -> criterion E
+04 Session 1 (frontend) log summary: 33 calls, 0 errors                  -> criterion A
+05 Session 2 (backend) log summary: 34 calls, 0 errors                   -> criterion A
+06 Tools picker for the QA session: only mcp-file-server-qa (4 tools)    -> criterion B
+07 Public ngrok URL without token -> 401 Unauthorized                    -> criteria D, E
+08 pm2 status: server and ngrok both online                              -> criterion D
+09 ngrok tunnel forwarding the static domain to localhost:3000           -> criterion D
+10 pm2 restart, then public URL still answers (survives a restart)       -> criterion D
+11 ngrok inspector: real VS Code client calling /mcp/qa and /mcp/dev     -> criteria B, D
+12 Session 1 final summary (commits 2354965, da509c2)                    -> criteria A, B
+13 Session 2 final summary (commits cfa71dc, ae23b24)                    -> criteria A, B
+14 Session 1 in progress: MCP tool calls to sprint-dev                   -> criteria A, B
+
+Redactions: client IP addresses and the ngrok account email are blacked out.
+Still to add: Session 3 QA audit report, Session 3 log summary (29 calls, 7 sandbox rejections), git log.

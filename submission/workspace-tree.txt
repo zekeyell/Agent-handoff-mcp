@@ -1,0 +1,14 @@
+CHECKPOINTS.md
+DECISIONS.md
+PLAN_LOG.md
+PROJECT_STATE.md
+docs/FIREBASE_SETUP.md
+firestore.rules
+lib/data/firestore_task_repository.dart
+lib/data/task_repository.dart
+lib/firebase_options.dart
+lib/main.dart
+lib/models/task.dart
+lib/screens/board_screen.dart
+lib/widgets/task_card.dart
+pubspec.yaml
