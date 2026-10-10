@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+/logs/
+/workspace/
+
+submission/**/auth-failures.jsonl
