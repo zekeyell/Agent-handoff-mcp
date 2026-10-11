@@ -14,6 +14,14 @@ Screenshot index (Midterms Pt 1 evidence)
 12 Session 1 final summary (commits 2354965, da509c2)                    -> criteria A, B
 13 Session 2 final summary (commits cfa71dc, ae23b24)                    -> criteria A, B
 14 Session 1 in progress: MCP tool calls to sprint-dev                   -> criteria A, B
+15 Session 3 (qa) log summary: 29 calls, 7 errors, all sandbox rejections -> criteria A, E
+16 Session 3 log: the 7 exact SANDBOX VIOLATION messages with timestamps   -> criterion E
+17 Workspace git history: 6 commits with [dev] / [qa] attribution            -> criteria B, F
+18 MCP Inspector on /mcp/dev: all 8 tools listed                            -> criterion C
+19 MCP Inspector: list_files returns the workspace tree and 4 protocol files -> criterion C
+20 MCP Inspector: read_file ../.env -> red SANDBOX VIOLATION tool error      -> criteria C, E
+21 MCP Inspector on /mcp/qa: only 4 tools listed                            -> criterion B
+22 MCP Inspector server view: Streamable HTTP, connected to /mcp/qa          -> criteria C, D
 
-Redactions: client IP addresses and the ngrok account email are blacked out.
-Still to add: Session 3 QA audit report, Session 3 log summary (29 calls, 7 sandbox rejections), git log.
+Redactions: client IP addresses, the ngrok account email and the browser bookmarks bar are blacked out.
+The Session 3 audit report and all three session transcripts are in ../transcripts/.
